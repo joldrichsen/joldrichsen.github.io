@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+html{
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 1rem;
+	font-family: 'Fira Sans', sans-serif;
+	color: #202529;
+}
+a{
+	color: #2B3A67;
+}
+a:hover{
+	color: rgba(43, 58, 103, .8);
+	text-decoration: underline;
+}
+.bg-lightgray{
+	background-color: #f3f3f3;
+}
+.bg-lightyellow{
+	background-color: #FFFD82;
+}
+.bg-lightbrown{
+	background-color: #FF9B71;
+}
+.bg-lightred{
+	background-color: #E84855;
+}
+.bg-lightblue{
+	background-color: #2B3A67;
+}
+.bg-lightgreen{
+	background-color: #889c34;
+}
+.lightgreen{
+	color: #889c34;
+}
+.headline {
+	font-size: 2rem;
+}
+.display-4 {
+	font-size: 2.5rem;
+}
+@media screen and (min-width: 568px) {
+	.display-4 {
+		font-size: 3.5rem;
+	}
+	.headline {
+		font-size: 3.5rem;
+	}
+}
+header.home .container-fluid.head{
+	background-color: #fff;
+}
+header.home {
+	background-image: url('inna-joldrichsen-nagelstudio.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-x: 50%;
+}
+@media screen and (min-width: 992px){
+	header.home {
+		background-position-x: initial;
+	}
+}
+.navbar .navbar-nav .nav-link{
+	padding: .25rem 0;
+	margin: 0 1.25rem;
+	color: #889c34;
+	font-size: 1rem;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	border-bottom: .25rem solid transparent;
+}
+.navbar .navbar-nav .nav-item.active .nav-link{
+	border-bottom: .25rem solid transparent;
+}
+.navbar .navbar-collapse{
+	background: #fff;
+}
+.navbar .navbar-nav .nav-link:hover{
+	color: #202529;
+	border-bottom: .25rem solid transparent;
+}
+@media screen and (min-width: 992px) {
+	.navbar .navbar-nav .nav-item.active .nav-link{
+		border-bottom: .25rem solid #202529;
+	}
+	.navbar .navbar-collapse{
+		background: transparent;
+	}
+	.navbar .navbar-nav .nav-link:hover{
+		border-bottom: .25rem solid #202529;
+	}
+}
+.navbar .navbar-brand{
+	margin-top: -0.75rem;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link{
+	color: #202529;
+	border-bottom: .25rem solid transparent;
+}
+@media screen and (min-width: 992px){
+	.navbar-light .navbar-nav .active>.nav-link,
+	.navbar-light .navbar-nav .nav-link.active, 
+	.navbar-light .navbar-nav .nav-link.show, 
+	.navbar-light .navbar-nav .show>.nav-link{
+		border-bottom: .25rem solid #202529;
+	}
+}
+.address{
+	margin: 1rem 1rem 0; 
+	font-size: .75rem; 
+	padding-right: 0rem;
+}
+@media screen and (min-width: 992px) {
+	.address{
+		padding-right: 1rem;
+	}
+}
+.btn{
+	background-color: #889c34;
+	border-radius: 25px;
+	border: 2px solid #889c34;
+}
+.btn:hover,
+.btn:active{
+	color: #889c34;;
+	background-color: transparent;
+	border: 2px solid #889c34;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, 
+.btn-primary:not(:disabled):not(.disabled):active:focus, 
+.show>.btn-primary.dropdown-toggle:focus{
+	box-shadow: 0 0 0 0.2rem rgba(136, 156, 52,.5);
+}
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.show>.btn-primary.dropdown-toggle{
+	color: #fff;
+    background-color: #889c34;
+    border-color: #889c34;
+}
+.jumbotron p,
+.jumbotron h1,
+.jumbotron h2, 
+.jumbotron h3{
+	color: #202529;
+}
+.container.vertical-center{
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  	min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  	display: flex;
+  	align-items: center;
+}
+.jumbotron {
+	padding-top: 9rem;
+	background-color: transparent;
+}
+@media (min-width: 576px){
+	.jumbotron {
+		padding: 9rem 1rem 4rem 2rem;
+	}
+}
+section{
+	padding-bottom: 2rem;
+}
+section.services{
+	padding-bottom: 0;
+}
+/*
+	Services
+*/
+.services .display-4,
+.makeup .display-4{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.services .card{
+	border: initial;
+	margin-bottom: 3rem;
+	-moz-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+	-webkit-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+	box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+}
+/*
+	Make-Up
+*/
+.makeup .img-right{
+	margin-left: 0; 
+	margin-top: 2rem;
+	width: 100%;
+	max-width: 600px;
+}
+@media screen and (min-width: 768px){
+	.makeup .img-right{
+		margin-left: 3rem;
+	}
+}
+.makeup hr{
+	display: block;
+    border: 0px;
+	height: 15px;
+	width: 150px;
+	margin-left: 0;
+	margin-bottom: 1.5rem;
+	background-image: url('divider.png');
+}
+.makeup .bkg-flower{
+	background-image: url('bkg-flower.png');
+	background-repeat: no-repeat;
+	background-position: 40% 90%;
+	
+}
+/*
+	Nails
+*/
+.nails .img-left{
+	margin-left: 0; 
+	margin-top: 2rem;
+	width: 100%;
+}
+.nails .display-4{
+	margin-top: 2rem;
+}
+@media screen and (min-width: 992px) {
+	.nails .display-4{
+		margin-top: 6rem;
+	}
+}
+.nails .overlay{
+	margin-top: 2rem;
+	padding: 2rem 3rem;
+}
+@media screen and (min-width: 768px){
+	.nails .overlay{
+		margin-top: 10rem;
+		margin-left: -8rem;
+	}
+}
+.nails .bg-gradientgreen{
+	background: #889c34; /* Old browsers */
+	background: -moz-linear-gradient(left, #889c34 0%, #bcd556 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #889c34 0%,#bcd556 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #889c34 0%,#bcd556 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#889c34', endColorstr='#bcd556',GradientType=1 ); /* IE6-9 */
+}
+.nails p,
+.nails h4{
+	color: #fff;
+}
+.nails hr{
+	display: block;
+    border: 0px;
+	height: 15px;
+	width: 150px;
+	margin-bottom: 1.5rem;
+	background-image: url('divider-white.png');
+}
+.nails .card{
+	border: initial;
+}
+.nails .card .d-flex{
+	display: block!important;
+}
+@media screen and (min-width: 768px){
+	.nails .card .d-flex{
+		display: flex!important;
+	}
+}
+/*
+	Eyelash
+*/
+.eyelash .display-4,
+.prices .display-4,
+.contact .display-4{
+	margin-top: 2rem;
+}
+@media screen and (min-width: 992px){
+	.eyelash .display-4,
+	.contact .display-4{
+		margin-top: 0rem;
+	}
+}
+.eyelash hr{
+	display: block;
+    border: 0px;
+	height: 15px;
+	width: 150px;
+	margin-left: 0;
+	margin-bottom: 1.5rem;
+	background-image: url('divider.png');
+}
+.eyelash .card{
+	border: initial;
+}
+.eyelash .card .d-flex{
+	display: block!important;
+}
+@media screen and (min-width: 768px){
+	.eyelash .card .d-flex{
+		display: flex!important;
+	}
+}
+.eyelash img{
+	margin-top: 2rem;
+	max-width: 100%;
+}
+
+/*
+	Prices
+*/
+.prices p.category{
+	color: #889c34;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+.prices p.price,
+.prices p.name {
+	margin-bottom: 0;
+}
+
+.prices ul.leaders {
+    padding: 0;
+    overflow-x: hidden;
+	list-style: none;
+}
+.prices ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . ";
+}
+.prices ul.leaders li.nots:before {
+    content: "";
+}
+ .prices ul.leaders span:first-child {
+    padding-right: 0.33em;
+	background: #fff;
+}
+.prices ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+	background: #fff;
+}
+
+.prices ul.leaders ul{
+	list-style-type: disc;
+}
+
+/*
+	Contact
+*/
+.contact h3{
+	color: #889c34;
+}
+.contact a{
+	color: #2B3A67;
+}
+.contact a:hover{
+	color: rgba(43, 58, 103, .8);
+	text-decoration: underline;
+}
+
+.mapouter{
+	text-align:right;
+	margin-top: 1rem;
+	width:100%;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	width:100%;
+}
+.gmap_canvas iframe{
+	min-height: 400px;
+}
+footer a{
+	margin-left: 1rem;
+}
+footer .container{
+	padding-top: .75rem;
+	padding-bottom: 2rem;
+}
+.protection .rights{
+	font-size: 0rem;
+}
+@media screen and (min-width: 576px){
+	.protection .rights{
+		font-size: 6rem;
+	}
+}
+@media screen and (min-width: 768px){
+	.protection .rights{
+		font-size: 12rem;
+	}
+}
