@@ -59,11 +59,6 @@ header.home {
 	background-attachment: fixed;
 	background-position-x: 50%;
 }
-@media screen and (min-width: 992px){
-	header.home {
-		background-position-x: initial;
-	}
-}
 .navbar .navbar-nav .nav-link{
 	padding: .25rem 0;
 	margin: 0 1.25rem;
@@ -388,8 +383,8 @@ footer a{
 	margin-left: 1rem;
 }
 footer .container{
-	padding-top: .75rem;
-	padding-bottom: 2rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
 }
 .protection .rights{
 	font-size: 0rem;
