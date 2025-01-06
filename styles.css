@@ -399,3 +399,71 @@ footer .container{
 		font-size: 12rem;
 	}
 }
+/* Dein neuer CSS-Code */
+.sub-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sub-list li {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.leaders {
+    padding-left: 0;
+    margin-left: 0;
+    list-style-type: none;
+}
+
+.leaders li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.leaders li span {
+    font-size: 1rem;
+}
+
+.leaders li span:first-child {
+    font-weight: bold;
+}
+
+.leaders li span:last-child {
+    font-weight: normal;
+    color: #888;
+}
+
+.leaders li span:nth-child(2) {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.category {
+    font-weight: bold;
+    border-bottom: 2px solid #889c34;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.row {
+    margin-bottom: 2rem;
+}
+
+.prices {
+    margin-bottom: 3rem;
+}
+
+.container {
+    margin-bottom: 2rem;
+}
+
+.price-note {
+    font-size: 0.75rem;
+    color: #777;
+    text-align: center;
+    margin-top: 1rem;
+}
+
